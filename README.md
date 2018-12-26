@@ -12,3 +12,9 @@ gource --key --seconds-per-day 0.1 --hide filenames --highlight-users --user-ima
 ```sh
 ffmpeg -i input.mp4 -an -vcodec libx264 -crf 23 outfile.h264
 ```
+
+or
+
+```sh
+ffmpeg -i input.mp4 -an -vcodec libx264 outfile.h264
+```
