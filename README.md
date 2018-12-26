@@ -18,3 +18,6 @@ or
 ```sh
 ffmpeg -i input.mp4 -an -vcodec libx264 outfile.h264
 ```
+
+In some cases, ffmpeg cut frames.
+In this case, use Blender for this convertion.
